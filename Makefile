@@ -11,7 +11,7 @@ handin: clean
 
 update:
 	git checkout master
-	git pull git@github.com:comp530h-f18/lab0h.git master
+	git pull https://github.com/comp530h-f18/lab0h.git master
 
 clean:
 	rm -f task_store *.o
